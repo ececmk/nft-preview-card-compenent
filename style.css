@@ -1,0 +1,92 @@
+body {
+  background-color: #0D192C;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Outfit;
+}
+
+.nft-preview-card {
+  width: 350px;
+  background-color: #15263F;
+  border-radius: 5%;
+  padding: 30px;
+}
+
+.nft-preview-card-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.nft-preview-card-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.nft-preview-card-description {
+  color: #8BACD9;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.nft-preview-card-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.nft-preview-card-data-eth {
+  color: #00FFF8;
+  display: flex;
+  align-items: center;
+}
+
+img.nft-preview-card-data-eth {
+  padding-right: 6px;
+}
+
+.nft-preview-card-data-days {
+  color: #8BACD9;
+  display: flex;
+  align-items: center;
+}
+
+img.nft-preview-card-data-days {
+  padding-right: 6px;
+}
+
+.nft-preview-card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid #2E405A;
+  padding-top: 16px;
+}
+
+.nft-preview-card-footer-image {
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.nft-preview-card-footer-text {
+  margin-left: 16px;
+  color: #8BACD9;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+span.nft-preview-card-footer-text {
+  color: #FFFFFF;
+}
